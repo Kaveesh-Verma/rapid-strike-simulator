@@ -1,73 +1,128 @@
-# Welcome to Rapid Strike- Sim by Kaveesh
+# 🚀 Rapid Strike Simulator  
+### Cyber Attack Training Simulator  
+**By Kaveesh Verma**
 
-## Project info
+Rapid Strike Simulator is an educational, simulation-based web application designed to help users **identify, analyze, and respond to realistic cyber attack scenarios** in a safe and controlled environment.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The platform focuses on **learning by doing**, providing instant feedback, scoring, and insights for every decision a user makes.
 
-## How can I edit this code?
+> ⚠️ **Note:** This project simulates cyber attacks strictly for educational and training purposes. No real attacks or harmful activities are involved.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🎯 Key Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 🧠 Simulated Cyber Attack Scenarios
+- Phishing emails  
+- Fake login pages  
+- Social engineering prompts  
+- Suspicious popups and alerts  
 
-Changes made via Lovable will be committed automatically to this repo.
+### ✅ Decision-Based Evaluation
+- Users choose actions based on the scenario  
+- Rule-based engine evaluates correctness  
+- Instant feedback with clear explanations  
 
-**Use your preferred IDE**
+### 📊 Learning & Progress Tracking
+- Score-based performance tracking  
+- Clear reasoning behind right and wrong decisions  
+- Focus on cyber security awareness and best practices  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🎨 Modern UI & Smooth Experience
+- Clean, responsive interface  
+- Optimized for desktop and web usage  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+This project is built using modern frontend technologies:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Vite** – Fast build tool  
+- **React** – Component-based UI  
+- **TypeScript** – Type-safe development  
+- **Tailwind CSS** – Utility-first styling  
+- **shadcn/ui** – Reusable UI components  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 📁 Project Structure
+
+```text
+rapid-strike-simulator/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   └── main.tsx
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+└── README.md
+
+The application will be available at:
+http://localhost:5173
+
+
+⚙️ Getting Started (Local Setup)
+Prerequisites
+
+Make sure you have the following installed:
+
+Node.js (v18+ recommended)
+
+npm
+
+Installation & Run
+# Clone the repository
+git clone https://github.com/Kaveesh-Verma/rapid-strike-simulator.git
+
+# Navigate into the project folder
+cd rapid-strike-simulator
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The application will be available at:
 
-**Use GitHub Codespaces**
+http://localhost:5173
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📌 Usage
 
-## What technologies are used for this project?
+Launch the application
 
-This project is built with:
+View a simulated cyber attack scenario
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Choose an appropriate response
 
-## How can I deploy this project?
+Receive instant feedback and score
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Learn best practices for cyber security awareness
 
-## Can I connect a custom domain to my Lovable project?
+🎓 Purpose & Learning Outcomes
 
-Yes, you can!
+Improve cyber security awareness
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Understand common cyber attack patterns
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Practice decision-making in realistic scenarios
+
+Learn safe and responsible responses to potential threats
+
+👤 Author
+
+Kaveesh Verma
+CSE Undergraduate
+Interests: Cyber Security, Web Development, System Design
+
+GitHub: Kaveesh-Verma
+
+📄 License
+
+This project is intended for educational and demonstration purposes.
+Feel free to explore, learn, and build upon it.
